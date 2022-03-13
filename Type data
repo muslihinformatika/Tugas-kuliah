@@ -1,0 +1,14 @@
+#Type data
+#string
+nama = "muslih"
+#integer
+umur = 18
+#float
+tinggi = 1.60
+#boolean
+menikah = False
+
+print(type("muslih"))
+print(type(18))
+print(type(1.60))
+print(type(False))

@@ -1,0 +1,10 @@
+#Percabangan
+
+ukuran_sepatu = int(input("masukkan ukuran sepatu anda :"))
+
+if ukuran_sepatu <29 :
+	print("ukuran sepatu kecil")
+elif ukuran_sepatu >29 and ukuran_sepatu <45:
+	print("ukuran sepatu normal")
+else:
+	print("ukuran sepatu besar")

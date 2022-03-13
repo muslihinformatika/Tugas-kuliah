@@ -1,0 +1,15 @@
+#OPERATOR Aritmatika
+a = int(input("masukkan nilai a : "))
+b = int(input("masukkan nilai b : "))
+#penjumlahan
+print(a+b)
+#pengurangan
+print(a-b)
+#pembagian 
+print(a/b)
+#perkalian
+print(a*b)
+#sisa bagi
+print(a%b)
+#pangkat
+print(a**b)

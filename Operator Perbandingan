@@ -1,0 +1,21 @@
+#Operator Perbandingan
+a = 10
+b = 20
+#sama dengan
+a = b
+print("itu salah")
+#tidak sama dengan
+a != b
+print("itu benar")
+#lebih besar dari
+a > b
+print("itu salah")
+#lebih kecil dari
+a < b
+print("itu benar")
+#lebih besar atau sama dengan
+a >= b
+print("itu salah")
+#lebih kecil atau sama dengan
+a <= b
+print("itu benar")

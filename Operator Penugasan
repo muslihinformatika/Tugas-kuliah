@@ -1,0 +1,25 @@
+#Operator Penugasan
+#sama dengan
+a = 100
+print(a)
+#tambah sama dengan
+a += 20
+print(a)
+#kurang sama dengan
+a -= 30
+print(a)
+#kali sama dengan
+a *= 2
+print(a)
+#bagi sama dengan
+a /= 2
+print(a)
+#sisa bagi sama dengan
+a %= 4
+print(a)
+#pangkat sama dengan
+a **= 2
+print(a)
+#pembagian bulat sama dengan
+a //= 2
+print(a)
