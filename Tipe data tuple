@@ -1,0 +1,35 @@
+#Tipe data tuple
+benda = ("pensil","pena","buku","penggaris","penghapus")
+#menampilkan tuple dengan perulangan
+for i in benda :
+	print(i)
+	
+a = 0
+while a < len (benda):
+	print(benda[a])
+	a += 1
+	
+#mengupdate salah satu tuple
+benda = list (benda)
+benda [2] = "kertas"
+print(benda)
+
+#menghapus salah satu tuple
+benda.pop()
+print(benda)
+
+benda.remove("pena")
+print(benda)
+
+del benda [0:2]
+print(benda)
+
+#menambahkan tuple
+benda.append("besi")
+print(benda)
+
+benda.extend(["kayu","plastik"])
+print(benda)
+
+benda.insert(2,"daun")
+print(benda)

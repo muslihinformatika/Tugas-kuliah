@@ -1,0 +1,35 @@
+#Tipe data list
+buah = ["apel","pisang","mangga","melon"]
+
+#menampilkan list dengan perulangan
+for i in buah:
+	print(i)
+	
+i = 0
+while i < len(buah):
+	print(buah[i])
+	i += 1
+	
+#mengupdate salah satu list
+buah[2] = "manggis"
+print(buah)
+
+#menghapus salah satu list
+buah.pop()
+print(buah)
+
+del buah [1:3]
+print(buah)
+
+buah.remove("apel")
+print(buah)
+
+#menambahkan list
+buah.append ("anggur")
+print(buah)
+
+buah.extend (["duku","langsat"])
+print(buah)
+
+buah.insert(3,"jeruk")
+print(buah)
